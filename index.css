@@ -33,7 +33,6 @@
 
         header {
             padding: 60px 20px;
-            text-align: center;
             color: var(--off-white);
             border-bottom: 4px solid var(--card-bg);
         }
