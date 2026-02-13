@@ -6,69 +6,134 @@
     <title>Vakrinos Antonis - Personal Website</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
+
 <body>
 
-<header class="main-header">
-  <img src="images/image.png" alt="Scenic mountains" class="header-image">
-  <div class="header-overlay">
-    <h1>Vakrinos Antonis</h1>
-    <p>Exploring the world, one byte at a time.</p>
-  </div>
-</header>
+    <header class="main-header">
+    <img src="images/image.png" alt="Rhino Grasshopper" class="header-image">
+    <div class="header-overlay">
+        <h1>Vakrinos Antonis</h1>
+        <p>Applied Mathematics and Physical Sciences NTUA</p>
+    </div>
+    </header>
 
 
-<div class="container">
+    <div class="container">
 
-    <section>
-        <h2>Information about myself</h2>
-        <div class="hero-placeholder">[Image: Global Network / Earth Visualization]</div>
-        <p>A brand guideline is a set of standards used to maintain a consistent brand in both public and private channels[cite: 8]. This ensures maximum reach and impact regarding brand recall[cite: 9].</p>
-    </section>
+        <section class="about-section">
+            <div class="hero-container">
+                <div class="photo-placeholder">
+                    <img src="images/mtt-532.jpg" alt="Your Name">
+                </div>
 
-    <section class="projects-section">
-    <h2>My projects</h2>
-    
-    <div class="photo-grid">
-        <div class="grid-item">
-            <div class="photo-placeholder">
-                <img src="Images/Cathedral_Modeling_main.png" alt="Parametrical cathedral toolkit">
+                <div class="info-text">
+                    <h2>Information about myself</h2>
+                    <p>Hi, I'm Vakrinos Antonis and i study at Applied Mathematics and Physical Sciences NTUA</p>
+                    <p>I am a student driven by the simulation of mathematical structures and physical phenomena.
+                        I enjoy exploring the intersection of computational visualization and theoretical modeling. 
+                        The purpose of this website is to showcase projects from my studies and personal research for others to explore.
+                        I provide links to all source code to ensure my work remains accessible for anyone to study and build upon.
+                    <p>
+                        In the future I hope to create an expansion involving game engines for games and interactive experiences, like the snake game you will see below.
+
+                    </p>
+                    <p><a style="color: var(--off-white);" href="mailto:anotnis.vakrinos@gmail.com">anotnis.vakrinos@gmail.com</a>
+                    ||  <a style="color: var(--off-white);" href="https://github.com/vakrinosantonis">github.com/vakrinosantonis</a>
+                    </p>
+                    </p>
+                </div>
             </div>
-            <p class="grid-text">Creating Throught Dividing</p>
-            <a class="grid-text"  href="https://vakrinosantonis.github.io/Cathedral-Modeling/">Visit Project</a>
-            <p> </p>
-            <a href="assets/cathedral-modeling/Creating through dividing-Article.pdf" download="Creating through dividing-Article" class="download-btn">
-    Download Article (.pdf)
-</a>
-        </div>
-        <div class="grid-item">
-            <div class="photo-placeholder">
-                <img src="images/ArchSnakeGame.png" alt="Project Thumbnail">
-            </div>
-            <p class="grid-text">Arch Snake Game</p>
-            <a class="grid-text"  href="https://vakrinosantonis.github.io/Snake-Game-in-p5/">Visit Project</a>
-        </div>
-        <div class="grid-item">
-            <div class="photo-placeholder">
-                <img src="images/RhinoRrogramParametric.png" alt="Project Thumbnail">
-            </div>
-            <p class="grid-text">Rhino Parametric Programming</p>
-            <p> </p>
-            <a href="assets/rhino-parametric-package.zip" download="Rhino-Parametric-Package" class="download-btn">
-    Download full Package (.zip)
-</a>
-        </div>
-        </div>
+        </section>
 
-    <blockquote>The secondary logo contains our initial—ideal for tight spaces.</blockquote>
-</section>
 
-</div>
+        <section class="projects-section">
+            
+            <h2>My projects</h2>
+            <p>The work that follows is a commlection of projects from my previous studies in Architectrue NTUA</p>
+            <div class="photo-grid">
+
+                <div class="grid-item"> 
+
+                    <div class="item-wrapper">
+                    
+                    <div class="media-side">
+                        <a class="grid-text" href="https://vakrinosantonis.github.io/Cathedral-Modeling/"></a>
+                        <div class="photo-placeholder">
+                            <img src="images/Cathedral_Modeling_main.png" alt="Parametrical cathedral toolkit" 
+                            onclick="location.href='https://vakrinosantonis.github.io/Cathedral-Modeling/';" style="cursor: pointer;">
+                        </div>
+                        <a href="assets/CathedralModeling.zip" download="CathedralModeling.zip" class="download-btn">
+                            Download Full Package (.zip)
+                        </a>
+                    </div>
+
+                    <div class="content-side">
+                        <h3>Creating Through Dividing</h3>
+                        <p>
+                            This toolkit is, modelled in p5.js, explores the potential of Recursive Programming 
+                            in designing footprints for buildings. The current version focuses on a cathedral standard floorplan,
+                            and uses String Physics Simulation with Gravity to replicate Gaudi inspired arches.
+                        </p>
+                    </div>
+                    
+                    </div>
+                </div>
+
+                <div class="grid-item">
+
+                    <div class="item-wrapper">
+
+                        <div class="media-side">
+                            <div class="photo-placeholder">
+                                <img src="images/ArchSnakeGame.png" alt="Project Thumbnail">
+                            </div>
+                        </div>
+
+                        <div class="content-side">
+                            <h3>Snake Game</h3>
+                            <p>
+                            A simple implementation of the classic Snake Game using p5.js. 
+                            The game features a snake that eats food, and the player must navigate it to avoid colliding with itself or the walls.
+                            The game includes basic controls for movement and a scoring system to track the player's progress.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                    
+                <div class="grid-item"> 
+
+                    <div class="item-wrapper">
+
+                        <div class="media-side">
+                            <div class="photo-placeholder">
+                                <img src="images/RhinoRrogramParametric.png" alt="Project Thumbnail"
+                                onclick="location.href='https://vakrinosantonis.github.io/Snake-Game-in-p5/';" style="cursor: pointer;">
+                            </div>
+                            <a href="assets/RhinoProgram.zip" download="RhinoProgram.zip" class="download-btn">
+                                Download full Package (.zip)
+                            </a>
+                        </div>
+
+                        <div class="content-side">
+                            <h3>GRASSHOPPER DOUBLE CURVED GEOMETRY</h3>
+                            <p>
+                            Using the Grasshopper extension in Rhino software, this proect models the construction of a double curved geometry.
+                            You can find simple python algorithms that feature data tree manipulation and translation to/from vector space.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+        </section>
+
+    </div>
+
 </body>
 
 
-<nav class="bottom-bar">
-  <a href="#home">Home</a>
-  <a href="#search">Search</a>
-  <a href="#profile">Profile</a>
-</nav>
+
 </html>
